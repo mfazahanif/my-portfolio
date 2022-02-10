@@ -988,6 +988,14 @@ body.light-theme {
   .about__subtitle {
     font-size: var(--smaller-font-size);
   }
+  .skills__container {
+    display: grid;
+  }
+
+  .skills__content {
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
 }
 
 @media screen and (min-width: 767px) {
